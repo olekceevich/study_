@@ -1,0 +1,8 @@
+CO_ODinterface.h:439:24:OD_getIndex	2
+CO_ODinterface.h:664:21:OD_get_u32	1
+CO_HBconsumer.c:43:13:CO_HBcons_receive	3
+CO_HBconsumer.c:115:18:CO_HBconsumer_init	13
+CO_HBconsumer.c:180:25:CO_HBconsumer_initEntry	12
+CO_HBconsumer.c:242:6:CO_HBconsumer_initCallbackPre	3
+CO_HBconsumer.c:260:6:CO_HBconsumer_initCallbackNmtChanged	2
+CO_HBconsumer.c:358:6:CO_HBconsumer_process	22

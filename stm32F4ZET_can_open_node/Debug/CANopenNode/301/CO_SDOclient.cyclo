@@ -1,0 +1,17 @@
+CO_ODinterface.h:439:24:OD_getIndex	2
+CO_ODinterface.h:650:21:OD_get_u8	1
+CO_ODinterface.h:664:21:OD_get_u32	1
+CO_fifo.h:102:20:CO_fifo_reset	2
+CO_fifo.h:140:22:CO_fifo_getSpace	2
+CO_fifo.h:157:22:CO_fifo_getOccupied	2
+CO_SDOclient.c:63:13:CO_SDOclient_receive	5
+CO_SDOclient.c:250:18:CO_SDOclient_init	14
+CO_SDOclient.c:359:17:CO_SDOclient_setup	8
+CO_SDOclient.c:432:17:CO_SDOclientDownloadInitiate	3
+CO_SDOclient.c:483:6:CO_SDOclientDownloadInitiateSize	2
+CO_SDOclient.c:500:8:CO_SDOclientDownloadBufWrite	3
+CO_SDOclient.c:513:17:CO_SDOclientDownload	46
+CO_SDOclient.c:1105:17:CO_SDOclientUploadInitiate	3
+CO_SDOclient.c:1157:17:CO_SDOclientUpload	42
+CO_SDOclient.c:1817:8:CO_SDOclientUploadBufRead	3
+CO_SDOclient.c:1830:6:CO_SDOclientClose	2
