@@ -1,0 +1,10 @@
+CO_ODinterface.c:25:1:OD_readOriginal	9
+CO_ODinterface.c:66:1:OD_writeOriginal	12
+CO_ODinterface.c:121:1:OD_readDisabled	1
+CO_ODinterface.c:131:1:OD_writeDisabled	1
+CO_ODinterface.c:140:1:OD_find	9
+CO_ODinterface.c:177:1:OD_getSub	19
+CO_ODinterface.c:266:1:OD_getSDOabCode	3
+CO_ODinterface.c:300:1:OD_get_value	4
+CO_ODinterface.c:322:1:OD_set_value	4
+CO_ODinterface.c:344:1:OD_getPtr	8
