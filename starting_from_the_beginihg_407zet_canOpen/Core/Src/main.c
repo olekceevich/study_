@@ -122,7 +122,7 @@ void CANopen_init() {
 
     // Инициализация CAN модуля
     HAL_UART_Transmit(&huart2, (uint8_t*)"Initializing CAN module...\r\n", strlen("Initializing CAN module...\r\n"), HAL_MAX_DELAY);
-    err = CO_CANmodule_init(&CANmodule, CAN1, CANrxArray, sizeof(CANrxArray) / sizeof(CANrxArray[0]), CANtxArray, sizeof(CANtxArray) / sizeof(CANtxArray[0]), 125);
+    err = CO_CANmodule_init(&CANmodule, CAN1, CANrxArray, sizeof(CANrxArray) / sizeof(CANrxArray[0]), CANtxArray, sizeof(CANtxArray) / sizeof(CANtxArray[0]), 500);
     if (err != CO_ERROR_NO) {
         // Обработка ошибки
         HAL_UART_Transmit(&huart2, (uint8_t*)"CAN module initialization failed\r\n", strlen("CAN module initialization failed\r\n"), HAL_MAX_DELAY);
